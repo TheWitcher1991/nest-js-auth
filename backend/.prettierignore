@@ -1,0 +1,9 @@
+node_modules/
+dist/
+build/
+docs/
+tmp/
+docker/
+tsconfig.json
+tsconfig.*.json
+index.html
