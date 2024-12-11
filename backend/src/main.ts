@@ -6,7 +6,7 @@ import { ValidationPipe } from '@nestjs/common'
 import IORedis from 'ioredis'
 import * as session from 'express-session'
 import ms from 'ms'
-import { parseBoolean } from '@/utils/parse-boolean.util'
+import { parseBoolean } from '@/libs/utils/parse-boolean.util'
 import { RedisStore } from 'connect-redis'
 
 async function bootstrap() {
